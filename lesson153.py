@@ -1,0 +1,21 @@
+string = 'Hello Programming'
+
+print('비파괴적 함수 : 원본은 절대 바뀌지 않는 다')
+print('비파괴적 함수는 변수에 결과를 리턴 받아 할당 한다.')
+print('output = string.upper()')
+print('-'*20)
+
+output = string.upper()
+print("원본 파일 :", string)
+print('-'*20)
+print('string.upper() :', output)
+print("원본 파일 :", string)
+print('-'*20)
+output = string.lower()
+print('string.lower() :', output)
+print("원본 파일 :", string)
+print('-'*20)
+output = string.split(' ')
+print('string.split() :', output)
+print("원본 파일 :", string)
+print('-'*20)
