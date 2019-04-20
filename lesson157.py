@@ -5,10 +5,12 @@ print(textwrap.dedent('''
 '''))
 
 list_a = [1,2,3,4,5,]
+print('list_a = ', end='')
 for i in list_a:
 	print(i,end=',')
 print()
 
+print('reversed(list_a) = ', end='')
 for i in reversed(list_a):
 	print(i,end=',')
 print()
